@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>school pylot tableau de bord</title>
+</head>
+<body>
+	<div id="forinner">
+	<header>
+		<a href="#"><img src="#" height="60px" width="200px" id="logo"></a>
+		
+		
+		<button id="dex" onclick="deconexion()"><p id="fortranslate">dèconexion</p></button>
+		
+		<div>
+			<ul id="time">
+				<li><input type="text" id="day" placeholder="&nbsp;&nbsp; jour"></li>
+				<li><input type="text" id="month" placeholder="&nbsp;&nbsp; month"></li>
+				<li><input type="text" id="year" placeholder="&nbsp;&nbsp;year"></li>
+			</ul>
+			<ul id="time-change">
+				<li><button onclick="changedate()"><p>changer la date</p></button></li><li><button onclick="getdate()"><p>date d'aujourd'hui</p></button></li>
+			</ul>
+		</div>
+		<div id="formove">
+		<div id="homeworklist">
+			
+		</div>
+		</div>
+		
+		<div id="bigmenu">
+			<ul id="bigmenulist">
+				<li><a href="devoireleves.html"><button class="buts"><p>devoirs</p></button></a></li>
+				<li><a href="notes.html"><button class="buts"><p>notes</p></button></a></li>
+				
+				<li><a href="courseleve.html"><button class="buts"><p>cours</p></button></a></li>
+				<li><a href="messages.html"><button class="buts"><p>messages</p></button></a></li>
+				<li><a href="absret.html"><button class="buts"><p>absences</p></button></a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
